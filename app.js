@@ -26,8 +26,8 @@ let sendMail = async(req,res) => {
         html:
         `<h3>Informations</h3>
            <ul>
-           <li>Name: ${data.name}</li>
-           <li>lastname: ${data.lastname}</li>
+           <li>Name: ${data.fname}</li>
+           <li>lastname: ${data.lname}</li>
            <li>Email: ${data.email}</li>
            </ul>
            <h3>Message</h3>
