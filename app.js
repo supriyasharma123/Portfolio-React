@@ -1,18 +1,13 @@
-
+const compression = require('compression');
 const express = require("express");
 const PORT = process.env.PORT || 4000;
 const cors = require("cors");
 const app = express();
-const path = require('path');
-const expressStaticGzip = require('express-static-gzip')
 var nodemailer = require('nodemailer');
 const bodyParser = require("body-parser");
 
 app.use(cors());
-
-app.use(
-  expressStaticGzip(path.join(__dirname, 'build')),
-);
+app.use(compression());
 
 var jsonParser = bodyParser.json()
 
