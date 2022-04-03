@@ -1,11 +1,17 @@
+import expressStaticGzip from 'express-static-gzip'
 const express = require("express");
 const PORT = process.env.PORT || 4000;
 const cors = require("cors");
 const app = express();
+const path = require('path');
 var nodemailer = require('nodemailer');
 const bodyParser = require("body-parser");
 
 app.use(cors());
+
+app.use(
+  expressStaticGzip(path.join(__dirname, 'build')),
+);
 
 var jsonParser = bodyParser.json()
 
