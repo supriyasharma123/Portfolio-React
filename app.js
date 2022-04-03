@@ -1,9 +1,10 @@
-import expressStaticGzip from 'express-static-gzip'
+
 const express = require("express");
 const PORT = process.env.PORT || 4000;
 const cors = require("cors");
 const app = express();
 const path = require('path');
+const expressStaticGzip = require('express-static-gzip')
 var nodemailer = require('nodemailer');
 const bodyParser = require("body-parser");
 
