@@ -5,9 +5,11 @@ const cors = require("cors");
 const app = express();
 var nodemailer = require('nodemailer');
 const bodyParser = require("body-parser");
+var sslRedirect = require('heroku-ssl-redirect');
 
 app.use(cors());
 app.use(compression());
+app.use(sslRedirect());
 
 var jsonParser = bodyParser.json()
 
