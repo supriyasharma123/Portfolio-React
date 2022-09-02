@@ -45,9 +45,9 @@ let sendMail = async(req,res) => {
       });
 }
 
-app.use(express.static(__dirname + "/build/"));
+app.use(express.static(__dirname + "/dist/"));
 app.get("*" , (req,res) => {
-  res.sendFile(__dirname + "/build/index.html");
+  res.sendFile(__dirname + "/dist/index.html");
 });
 
 app.post("/send", jsonParser, sendMail);
