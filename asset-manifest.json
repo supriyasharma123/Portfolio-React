@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7016de13.css",
-    "main.js": "/static/js/main.3700cdba.js",
+    "main.css": "/static/css/main.fa21a9c5.css",
+    "main.js": "/static/js/main.f7d001d3.js",
     "static/media/Computer - 36503.webm": "/static/media/Computer - 36503.1de290a8d22fc62fbbb0.webm",
     "static/media/TechED.webp": "/static/media/TechED.6abe7adca84c1f8412aa.webp",
+    "static/media/me-2png.jpeg": "/static/media/me-2png.6cd8e44a780ddb76f939.jpeg",
     "static/media/pixalbay.webp": "/static/media/pixalbay.9b76de94178415233e5e.webp",
     "static/media/420 DOGS.webp": "/static/media/420 DOGS.47a205d8145267133c92.webp",
+    "static/media/nullarc.png": "/static/media/nullarc.5bcae6d383b647ae0386.png",
+    "static/media/hept logo.png": "/static/media/hept logo.e55f93fc2ca5e888e22c.png",
     "static/media/Weather-App.webp": "/static/media/Weather-App.f45374fbdf7ae927b92c.webp",
     "static/media/tech-phantom.webp": "/static/media/tech-phantom.a84b5855a87d627447a7.webp",
     "static/media/Tic Tac Toe.webp": "/static/media/Tic Tac Toe.177e930a4ad50a0929e0.webp",
-    "static/media/me-2png.webp": "/static/media/me-2png.1d3d256b628072b7945a.webp",
     "index.html": "/index.html",
-    "main.7016de13.css.map": "/static/css/main.7016de13.css.map",
-    "main.3700cdba.js.map": "/static/js/main.3700cdba.js.map"
+    "main.fa21a9c5.css.map": "/static/css/main.fa21a9c5.css.map",
+    "main.f7d001d3.js.map": "/static/js/main.f7d001d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7016de13.css",
-    "static/js/main.3700cdba.js"
+    "static/css/main.fa21a9c5.css",
+    "static/js/main.f7d001d3.js"
   ]
 }
